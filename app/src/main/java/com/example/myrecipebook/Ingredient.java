@@ -1,11 +1,11 @@
 package com.example.myrecipebook;
 
-public class Ingredients {
+public class Ingredient {
     private String measurementType;
     private int measurement;
     private String ingredient;
 
-    public Ingredients(String measurementType, int measurement, String ingredient) {
+    public Ingredient(String measurementType, int measurement, String ingredient) {
         this.measurementType = measurementType;
         this.measurement = measurement;
         this.ingredient = ingredient;
