@@ -1,0 +1,1 @@
+An app that holds all your favorite recipes. A meal planner to plan out a weeks meals. A pantry to hold all ingredients available. Can create a shopping list based on the meals chossen and the ingredient available.
