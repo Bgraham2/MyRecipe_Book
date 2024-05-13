@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".MealPlanActivity">
 
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today's Date"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDate">
+
+        <TextView
+            android:id="@+id/textViewHeaderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Day "
+            android:textAlignment="center"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewBreakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Breakfast"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewLunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Lunch"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textViewSupper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Dinner"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

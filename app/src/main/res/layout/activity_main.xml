@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonMealPlan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/meal_plan"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         android:text="@string/meal_plan"
         app:layout_constraintBottom_toTopOf="@+id/buttonRecipes"
         app:layout_constraintEnd_toEndOf="parent"
