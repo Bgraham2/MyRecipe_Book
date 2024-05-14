@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button pantry = findViewById(R.id.buttonPantry);
         pantry.setOnClickListener(view -> {
-            Log.d(TAG, "Pantry clicked");
+            Log.d(TAG, "PantryItem clicked");
             //TODO add opening pantry activity
         });
     }
